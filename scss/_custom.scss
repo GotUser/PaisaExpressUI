@@ -1,0 +1,177 @@
+// Custom styles for this template
+
+.card, .social-box {
+  border-top-width: 0;
+  border-bottom-width: 2 * $card-border-width;
+}
+
+[class*="card-outline-"] {
+  border-top-width: 1px !important;
+}
+
+[class*="card-accent-"] {
+  border-top-width: 2px !important;
+}
+
+.aside-menu {
+  .nav-tabs .nav-link,
+  .callout {
+    border-radius: 0;
+  }
+}
+
+.gridButtons{
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.deleteModelButton{
+  align-self: center;
+}
+
+.widgetsIconColor{
+  color: '#f8b018';
+}
+
+.widgetsBackground{
+  background-color:'#f6f6f6';
+}
+
+.widgetsTextColor{
+  color:'#f6f6f6';
+}
+
+.gridIconColor{
+  color: '#f8b018';
+}
+
+.custom-header {
+  position: relative;
+  flex-direction: row;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: #888c8f;
+}
+
+
+.custom-header-fixed {
+  position: fixed;
+  z-index: 1020;
+  width: 100%;
+}
+
+.app-custom-header {
+  transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, flex 0.25s;
+}
+
+
+.custom-navbar-brand {
+  background-image: '';
+}
+
+.custom-dropdown-item {
+  position: relative;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e4e6eb;
+}
+
+.DateInput_input {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 24px;
+  color: #565a5c;
+  background-color: #fff;
+  width: 100%;
+  padding: 5px 12px 5px;
+  border: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid transparent;
+  border-left: 0;
+}
+
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: #f5dd02;
+  border: 1px solid #f5dd02;
+  color: #fff;
+}
+
+.CalendarDay__selected_span {
+  background: #fec927;
+  border: 1px solid #fec927;
+  color: #fff;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight:hover {
+  border-right: 33px solid #fec927;
+}
+
+.navbar .sidebar .active.dropdown-toggle i, .sidebar .nav-link.active i, .sidebar .navbar .active.dropdown-toggle i {
+  color: #fec927;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+  border-top: 26px solid transparent;
+  border-right: 33px solid #fec927;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-warning {
+  color: #fcfeff;
+  background-color: #fabb3d;
+  border-color: #fabb3d;
+}
+
+.cardHeader{
+  flex: 1 1 auto;
+  width: 1%;
+}
+
+.btn-secondary {
+  color: #151b1e;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+
+.badge-success {
+  color: #151b1e;
+  background-color: #bdea74;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 0px solid #e4e6eb;
+  border-radius: 0.25rem;
+}
+
+// Here you can add other styles
+.WidgetIcon:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.ShowBalance:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
